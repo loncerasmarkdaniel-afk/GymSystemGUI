@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Laragon",
+            "database": "gym_db",
+            "username": "root",
+            "password": ""
+        }
+    ],
+    "java.project.referencedLibraries": [
+    "mysql-connector-j-26.10.0.jar"
+    ]
+}
